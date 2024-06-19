@@ -1,0 +1,135 @@
+:main
+a_name ModPacks By JustinBV_
+a_version 1.0
+a_author JustinBV_
+
+:button instalar_DawnCraft
+text Instalar DawnCraft (1.18.2 / Forge)
+remove_server
+download_version n forge 1.18.2
+config server_type forge
+config server_version 1.18.2
+config_save
+say Descargando DawnCraft...
+say Instalando DawnCraft...
+download_file https://www.dropbox.com/scl/fi/ambfe878loh66jgl9rgvw/wer.zip?rlkey=s049kd5d63qwt5m39wavzfcix&st=v5irvrtb&dl=1 DawnCraft.rar
+unzip DawnCraft.rar
+say DawnCraft instalado!
+nsay De: JustinBV_
+sleep 3
+
+:button instalar_RLCraft
+text Instalar RLCraft (1.12.2 / Forge)
+remove_server
+download_version n forge 1.12.2
+config server_type forge
+config server_version 1.12.2
+config_save
+say Descargando RLCraft...
+download_file https://mediafilez.forgecdn.net/files/4612/990/RLCraft%20Server%20Pack%201.12.2%20-%20Release%20v2.9.3.zip RLCraft.zip
+unzip RLCraft.zip
+say RLCraft instalado!
+nsay De: JustinBV_
+sleep 3
+
+:button instalar_PromiRPG
+text Instalar Prominence RPG (1.20.1 / Fabric)
+remove_server
+download_version n fabric 1.20.1
+config server_type fabric
+config server_version 1.20.1
+config_save
+say Descargando Prominence II RPG
+download_file https://mediafilez.forgecdn.net/files/5396/897/Prominence_II_RPG_Server_Pack_v2.8.6hf.zip promii_rpg.zip
+unzip promii_rpg.zip
+say Prominence II RPG instalado
+nsay De: JustinBV_
+sleep 3
+
+:button instalar_BMC4
+text Instalar Better Minecraft 4 (1.20.1 / Forge)
+remove_server
+download_version n forge 1.20.1
+config server_type forge
+config server_version 47.2.6
+config_save
+say Descargando Better MC 4
+download_file https://mediafilez.forgecdn.net/files/5399/160/BMC4_FORGE_1.20.1_Server_Pack_v27.5.zip BMC4.zip
+unzip BMC4.zip
+say Better MC 4 Instalado
+say Descargando forge necesario...
+download_file https://www.dropbox.com/scl/fi/4l8f8zaipvneisw68yizk/forgebmc.zip?rlkey=b94xhrlzshjqye26bp9amvlsi&st=9bxacjqd&dl=1 forgebmc.zip
+unzip forgebmc.zip
+say Forge Instalado
+nsay De: JustinBV_
+sleep 3
+
+:button instalar_CurseW
+text Instalar Cursed Walking (1.20.1 / Forge)
+remove_server
+download_version n forge 1.20.1
+config server_type forge
+config server_version 1.20.1
+config_save
+say Descargando Better MC 4
+download_file https://mediafilez.forgecdn.net/files/5370/200/Cursed%20Walking%201.20.1%20Version%201.4.1%20Server%20Files.zip CurWl.zip
+unzip CurWl.zip
+say Cursed Walking Instalado
+nsay De: JustinBV_
+sleep 3
+
+:button instalar_AllM9
+text Instalar All The Mods 9 (1.20.1 / Forge)
+remove_server
+download_version n forge 1.20.1
+config server_type forge
+config server_version 1.20.1
+config_save
+say Descargando All The Mods 9
+download_file https://www.dropbox.com/scl/fi/7d54gkil6ml6w3c8637u4/all9m.zip?rlkey=6frsvqxb8z7f9a4av0seriwf0&st=iaqttmgf&dl=1 Allm9.zip
+unzip Allm9.zip
+say All The Mods 9 Instalado
+nsay De: JustinBV_
+sleep 3
+
+:button instalar_PixelM
+text Instalar Pixelmon (1.16.5 / Forge)
+remove_server
+download_version n forge 1.16.5
+config server_type forge
+config server_version 1.16.5
+config_save
+say Descargando Pixelmon
+download_file https://mediafilez.forgecdn.net/files/5218/531/serverpack9111.zip pixm.zip
+unzip pixm.zip
+say Pixelmon Instalado
+nsay De: JustinBV_
+sleep 3
+
+:button instalar_SPLPS
+text Instalar SteamPunk (1.19.2 / Forge)
+remove_server
+download_version n forge 1.19.2
+config server_type forge
+config server_version 1.19.2
+config_save
+say Descargando SteamPunk
+download_file https://mediafilez.forgecdn.net/files/5365/215/SteamPunk_LPS_v23.5_serverpack.zip stm.zip
+unzip stm.zip
+say SteamPunk Instalado
+nsay De: JustinBV_
+sleep 3
+
+:button instalar_ALTSK9
+text Instalar All The Mods 9 - TO THE SKY (1.20.1 / Forge)
+remove_server
+download_version n forge 1.20.1
+config server_type forge
+config server_version 1.20.1
+config_save
+say Descargando Roguelike Adventures and Dungeons
+download_file https://mediafilez.forgecdn.net/files/5410/874/server-1.0.3.zip altsk9.zip
+unzip altsk9.zip
+say Roguelike Adventures and Dungeons Instalado
+nsay De: JustinBV_
+sleep 3
